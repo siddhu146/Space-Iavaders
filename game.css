@@ -1,0 +1,128 @@
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+canvas{
+    border:solid;
+    border-width: 2px;
+    border-color: rgb(207, 11, 11);
+    margin-top:20px;
+    background-color: black;
+    background-image: url('images/canva\ back2.jpg');
+}
+body{
+    margin:0px;
+}
+.button{
+    display:inline-block;
+}
+.pause{
+    width:100px;
+    height:40px;
+   color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-size: 100px;
+    color: white;
+    text-shadow: 5px 5px 3px rgb(130, 119, 119);
+}
+.start{
+   width:250px;
+   height: 80px;
+   font-size: 30px;
+   color: #8a1cba;
+   border-radius: 40px;
+   box-shadow: 5px 5px 10px rgb(140, 122, 122);
+   transition: transform 0.3s ;
+}
+.start.translate{
+    transform :translate(5px,5px);
+}
+.game-box{
+    flex:1;
+}
+.page2-icons{
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.but{
+    width:150px;
+    height:60px;
+    margin-top:60px;
+    border-radius: 50px;
+    background-color: rgb(101, 67, 137);
+    transition: transform 0.3s;
+    box-shadow: 5px 5px 10px beige;
+    font-size: large;
+}
+
+.but.animate{
+    transform: translate(5px,5px);
+}
+.volume,.main-vol{
+    transform: rotate(270deg);
+    display: inline-block;
+    width:150px;
+    height:50px;
+    margin-top:30px;
+}
+.volume-text{
+    color: white;
+    display: inline-block;
+    margin-top:50px;
+    margin-left:50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.vol-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+.container2{
+    display: flex;
+    flex: 1;
+}
+.high{
+    margin-top:0px;
+    justify-content: center;
+   color: yellow;
+   font-size:30px ; 
+   display: inline-flex;
+   padding-top: 0px;
+   height:50px;
+   margin-top: 0px;
+
+}
+.vol{
+    display: flex;
+    flex-direction: column;
+    margin-top:50px;
+}
+.music{
+    margin-left: 110px;
+}
+.explosion-vol{
+    margin-bottom: 0px;
+    transform: rotate(270deg);
+    display: inline-block;
+    width:150px;
+    height:50px;
+    margin-top:30px;
+}
+
