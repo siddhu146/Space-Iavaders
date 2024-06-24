@@ -230,6 +230,7 @@ function game(cw,ch){
             enemies=[];
             object.clearRect(0,0,cw,ch);
             player1.draw();
+            player1.lostcount=0;
             score_box();
             score_display(cw,1);
             if(animationpause){
